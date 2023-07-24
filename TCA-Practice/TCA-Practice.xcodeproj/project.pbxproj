@@ -12,6 +12,9 @@
 		277873412A6E75F5009F9102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 277873402A6E75F5009F9102 /* Assets.xcassets */; };
 		277873442A6E75F5009F9102 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 277873432A6E75F5009F9102 /* Preview Assets.xcassets */; };
 		2778734C2A6E76A6009F9102 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 2778734B2A6E76A6009F9102 /* ComposableArchitecture */; };
+		2778734E2A6E8432009F9102 /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2778734D2A6E8432009F9102 /* Memo.swift */; };
+		277873502A6E8446009F9102 /* MemoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2778734F2A6E8446009F9102 /* MemoClient.swift */; };
+		277873522A6E89F5009F9102 /* MemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277873512A6E89F5009F9102 /* MemoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		2778733E2A6E75F4009F9102 /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
 		277873402A6E75F5009F9102 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		277873432A6E75F5009F9102 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2778734D2A6E8432009F9102 /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		2778734F2A6E8446009F9102 /* MemoClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoClient.swift; sourceTree = "<group>"; };
+		277873512A6E89F5009F9102 /* MemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +61,9 @@
 			children = (
 				2778733C2A6E75F4009F9102 /* TCA_PracticeApp.swift */,
 				2778733E2A6E75F4009F9102 /* CounterView.swift */,
+				2778734D2A6E8432009F9102 /* Memo.swift */,
+				2778734F2A6E8446009F9102 /* MemoClient.swift */,
+				277873512A6E89F5009F9102 /* MemoView.swift */,
 				277873402A6E75F5009F9102 /* Assets.xcassets */,
 				277873422A6E75F5009F9102 /* Preview Content */,
 			);
@@ -145,6 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				277873522A6E89F5009F9102 /* MemoView.swift in Sources */,
+				277873502A6E8446009F9102 /* MemoClient.swift in Sources */,
+				2778734E2A6E8432009F9102 /* Memo.swift in Sources */,
 				2778733F2A6E75F4009F9102 /* CounterView.swift in Sources */,
 				2778733D2A6E75F4009F9102 /* TCA_PracticeApp.swift in Sources */,
 			);
