@@ -79,7 +79,6 @@ struct MemoView: View {
     
     var body: some View {
         WithViewStore(self.store) { viewStore in
-            
             VStack {
                 Text("\(viewStore.state.count)")
                 HStack {
