@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct TCA_CounterApp: App {
+    @StateObject var counterFeature: CounterFeature = CounterFeature()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(counterFeature)
         }
     }
 }
