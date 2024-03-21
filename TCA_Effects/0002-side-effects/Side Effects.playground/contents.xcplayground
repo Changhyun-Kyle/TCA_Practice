@@ -3,5 +3,7 @@
     <pages>
         <page name='Fish'/>
         <page name='Diamonds'/>
+        <page name='Recursive'/>
+        <page name='Contact'/>
     </pages>
 </playground>
