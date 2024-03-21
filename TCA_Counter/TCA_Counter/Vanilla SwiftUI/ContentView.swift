@@ -70,7 +70,13 @@ struct ContentView: View {
                         await self.counterFeature.getFactButtonTapped()
                     }
                 } label: {
-                    Text("데이터 가져오기")
+                    HStack {
+                        Text("데이터 가져오기")
+                        if self.counterFeature.isLoadingFact {
+                          Spacer()
+                          ProgressView()
+                        }
+                    }
                 }
                 if let fact = counterFeature.fact {
                     Text(fact)
