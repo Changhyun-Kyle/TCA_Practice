@@ -20,7 +20,6 @@ final class CounterFeature: ObservableObject {
     @Published var count: Int = 0
     @Published var fact: String?
     @Published var isLoadingFact: Bool = false
-    @Published var isTimerOn: Bool = false
     
     func decrementButtonTapped() {
         self.count -= 1

@@ -57,7 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				273615682BAC5C35004C3F15 /* App */,
-				273615662BAC54EC004C3F15 /* Vanilla SwiftUI */,
+				273615662BAC54EC004C3F15 /* Vanilla_SwiftUI */,
 				273615672BAC5538004C3F15 /* TCA */,
 				273615692BAC5C40004C3F15 /* Resource */,
 				273615582BAC3D3E004C3F15 /* Preview Content */,
@@ -73,12 +73,12 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		273615662BAC54EC004C3F15 /* Vanilla SwiftUI */ = {
+		273615662BAC54EC004C3F15 /* Vanilla_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
 				273615542BAC3D3B004C3F15 /* ContentView.swift */,
 			);
-			path = "Vanilla SwiftUI";
+			path = Vanilla_SwiftUI;
 			sourceTree = "<group>";
 		};
 		273615672BAC5538004C3F15 /* TCA */ = {

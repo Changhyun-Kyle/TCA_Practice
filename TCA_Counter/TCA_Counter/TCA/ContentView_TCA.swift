@@ -89,12 +89,12 @@ struct ContentView_TCA: View {
                         viewStore.send(.getFactButtonTapped)
                     } label: {
                         HStack {
+                            Text("데이터 가져오기")
                             if viewStore.isLoadingFact {
                               Spacer()
                               ProgressView()
                             }
                         }
-                        Text("데이터 가져오기")
                     }
                     if let fact = viewStore.fact {
                         Text(fact)
